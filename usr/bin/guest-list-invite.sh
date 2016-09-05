@@ -3,11 +3,10 @@ phone="$1"
 last="$2"
 address="$3"
 first="$4"
-user=$5
-password=$6
-server=$7
-database=$8
-
+user="$5"
+password="$6"
+server="$7"
+database="$8"
 
 latestfid=$(mysql -u $user -p$password -N -B -e  "use $database; select fid from invitees;" | tail -1)
 fid=$(($latestfid+1))
