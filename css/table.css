@@ -1,0 +1,38 @@
+#list {
+margin: 0 auto;
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+
+}
+
+#list td, th {
+padding: 0px;
+margin: 0px;
+}
+
+th { text-align: left; }
+
+th {
+color: #FDFDFF;
+background-color: #1d1f20;
+}
+
+
+tr {
+border-bottom: 1px solid #1d1f20;
+}
+
+p { margin: 0px; padding: 0px; }
+
+td#inputfields { display: none; }
+
+label.new { display: none; }
+
+a.nevermind { display: none; }
+td.newcontact { display: none; }
+a.printerfriendly { 
+text-align:center;  
+margin: 0 auto;
+display: block;
+}
